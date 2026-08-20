@@ -4,7 +4,7 @@ first = 0
 second = 1
 
 
-for next in range(0 , n):
+for i in range(0 , n):
     print(first)
 
     next = first + second
@@ -12,7 +12,7 @@ for next in range(0 , n):
     first = second
     second = next
     
-    print(next)
+    
 
 
    
